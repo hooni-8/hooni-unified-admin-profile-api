@@ -14,10 +14,9 @@ spring:
     name: api-admin-profile
 
   datasource:
-    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    url: ENC(7pL1LQK3IHSpxakPqWFiSk2AGNvoUkJA+fsHM1UdtCte9ywVI+NPsSjJGptOroBmUq15wtfwa80L401THL5Jt5o+Ggk5CwGtVK6x+dWM4LKL8jvDkTt6ngwvMPM4Wkpk)
-    username: ENC(xz9gisFxbgFoBzBTKtbw+jRyoHq08AJtILz1OsiTPF/69hHUbjM4697G+XP8f7lf)
-    password: ENC(apLcezkE1YbRz9TcI7pPBZ6v74ArtYU7ns4N9Es+dajByA5JmpkMsK+uu108CeTL)
+    url: ENC(ZxfrRS4btUnUdfCMGyUTkDVt5CyILieo6/OOtRSmtxs6TT6vNhMVg9a8J1NFpX2piV4Z3xHS+t83a2VDnN3xlcnMCR8kbKiC+nzZLht+YTc=)
+    username: ENC(RKeaQzY5fDvxKGF9CdFHYZ/WMinf9QFjOH0Kp7HN+V+qXDj8+d+R9zU14Sbr3cge)
+    password: ENC(KRc6hSseD7fxFfoflw7rxGABZlcoRtzfqjAO4+/i+eOlDT0bVQ4qYpZDMLplneHj)
 
 ###########################################################################
 ### log config 위치 설정
@@ -33,7 +32,7 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
   mapper-locations:
-    - classpath:mappers/**/*Mapper.xml
+    - classpath:mapper/**/*Mapper.xml
 
 ###########################################################################
 ### Swagger 설정
